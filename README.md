@@ -18,6 +18,7 @@
 ```bash
 python examples/demo.py
 python -m unittest discover -s tests
+open docs/visual_report.html
 python -m video_stego_flow.cli --message "demo payload" --report docs/cli_report.md
 ```
 
